@@ -1,0 +1,10 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+.idea/
+vendor/
+composer.lock
+.phpunit.result.cache
+
+# dev: local updating composer packages
+/local.php
+composer.*.json
+composer.*.lock
