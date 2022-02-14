@@ -16,7 +16,6 @@
     },
     "require": {
         "php": "^8.1",
-        "ext-json": "*",
         "codexsoft/transmission-schema": "^2"
     },
     "require-dev": {

@@ -14,7 +14,7 @@ class StringElementTsConverter extends ScalarElementTsConverter
     {
         $choices = $this->element->getChoicesSourceArray();
         if ($choices) {
-            return \implode('|', \array_map(fn ($choice) => "'".$choice."'", $choices));
+            return \implode('|', \array_map(static fn ($choice) => "'".$choice."'", $choices));
         }
 
         return 'string';

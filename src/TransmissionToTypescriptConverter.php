@@ -48,6 +48,7 @@ class TransmissionToTypescriptConverter
      * @param string|JsonSchemaInterface $class
      *
      * @return string
+     * @throws \CodexSoft\Transmission\Schema\Exceptions\InvalidJsonSchemaException
      * @throws \ReflectionException
      */
     public function createRef(string|JsonSchemaInterface $class): string
